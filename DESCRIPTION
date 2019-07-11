@@ -1,0 +1,10 @@
+Package: commonR
+Title: commonR
+Version: 0.0.0.9000
+Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
+Description: Loads custom frequenty used functions.
+Depends: R (>= 3.4.4)
+License: GPLv3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
