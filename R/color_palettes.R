@@ -20,16 +20,16 @@
 #' @examples
 #' ggplot(mtcars, aes(wt, mpg)) + geom_point(aes(color = as.factor(cyl))) + scale_color_manual(values = cbPalette)
 
-# Color blind colors
-cb_gray <- "#999999"
-cb_orange <- "#E69F00"
+# Color blind-friendly colors
+cb_gray      <- "#999999"
+cb_orange    <- "#E69F00"
 cb_lightblue <- "#56B4E9"
-cb_green <- "#009E73"
-cb_yellow <- "#F0E442"
-cb_blue <- "#0072B2"
-cb_red <- "#D55E00"
-cb_pink <- "#CC79A7"
-cb_black <- "#000000"
+cb_green     <- "#009E73"
+cb_yellow    <- "#F0E442"
+cb_blue      <- "#0072B2"
+cb_red       <- "#D55E00"
+cb_pink      <- "#CC79A7"
+cb_black     <- "#000000"
 
 # Palette with gray
 cbPalette <- c(cb_gray,
@@ -52,7 +52,7 @@ cbbPalette <- c(cb_black,
                 cb_pink)
 
 
-# Individual colors, good for monocolors or to highlight certain plot elements
+# Individual colors to highlight certain plot elements
 BrickRed <- "#B5251C"  # from LaTeX
 
 ChangRed <- "#D12413"  # from "Physical Chemistry" by Raymond Chang
