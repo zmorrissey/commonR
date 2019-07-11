@@ -3,11 +3,11 @@
 #' Color blind-friendly palettes and plot colors I like. Palettes taken from
 #' http://www.cookbook-r.com/Graphs/Colors_(ggplot2)/#palettes-color-brewer
 #' @keywords color palette theme ggplot2
-#' @export cbPalette
-#' @export cbbPalette
-#' @export ChangRed
-#' @export BrickRed
-#' @export SoloBlue
+#' @export cb_palette
+#' @export cbb_palette
+#' @export changred
+#' @export brickred
+#' @export soloblue
 #' @export cb_gray
 #' @export cb_orange
 #' @export cb_lightblue
@@ -32,17 +32,7 @@ cb_pink      <- "#CC79A7"
 cb_black     <- "#000000"
 
 # Palette with gray
-cbPalette <- c(cb_gray,
-               cb_orange,
-               cb_lightblue,
-               cb_green,
-               cb_yellow,
-               cb_blue,
-               cb_red,
-               cb_pink)
-
-# Palette with black
-cbbPalette <- c(cb_black,
+cb_palette <- c(cb_gray,
                 cb_orange,
                 cb_lightblue,
                 cb_green,
@@ -51,10 +41,20 @@ cbbPalette <- c(cb_black,
                 cb_red,
                 cb_pink)
 
+# Palette with black
+cbb_palette <- c(cb_black,
+                 cb_orange,
+                 cb_lightblue,
+                 cb_green,
+                 cb_yellow,
+                 cb_blue,
+                 cb_red,
+                 cb_pink)
+
 
 # Individual colors to highlight certain plot elements
-BrickRed <- "#B5251C"  # from LaTeX
+brickred <- "#B5251C"  # from LaTeX
 
-ChangRed <- "#D12413"  # from "Physical Chemistry" by Raymond Chang
+changred <- "#D12413"  # from "Physical Chemistry" by Raymond Chang
 
-SoloBlue <- "#2096BA"
+soloblue <- "#2096BA"
