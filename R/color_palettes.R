@@ -3,7 +3,20 @@
 #' Color blind-friendly palettes and plot colors I like. Palettes taken from
 #' http://www.cookbook-r.com/Graphs/Colors_(ggplot2)/#palettes-color-brewer
 #' @keywords color palette theme ggplot2
-#' @export
+#' @export cbPalette
+#' @export cbbPalette
+#' @export ChangRed
+#' @export BrickRed
+#' @export SoloBlue
+#' @export cb_gray
+#' @export cb_orange
+#' @export cb_lightblue
+#' @export cb_green
+#' @export cb_yellow
+#' @export cb_blue
+#' @export cb_red
+#' @export cb_pink
+#' @export cb_black
 #' @examples
 #' ggplot(mtcars, aes(wt, mpg)) + geom_point(aes(color = as.factor(cyl))) + scale_color_manual(values = cbPalette)
 
