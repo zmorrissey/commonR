@@ -1,0 +1,15 @@
+#+TITLE: commonR
+#+AUTHOR:
+#+DATE:
+
+A compilation of libraries, color palettes, themes, etc. that I commonly use doing data analysis in =R=.
+
+Includes
+- =color_palettes.R=: Color blind-friendly color palettes for plotting with =ggplot2=, inspired by the [[http://www.cookbook-r.com/Graphs/Colors_(ggplot2)/][Cookbook for R]].
+- =convert_mat_df.R=: Used for converting matrices to ``tidy'' format for use with =ggplot2=
+- =imagesc.R=: Visualize matrices similar to Matlab's =imagesc= function using =ggplot2=
+- =libraries.R=: Commonly used libraries for convenient loading
+- =list_installed_packages.R=: Show user-installed =R= packages
+- =load_libraries.R=: One-liner to load libraries in =libraries.R=
+- =my_theme.R=: Minor theme customizations for =ggplot2=
+- =se.R=: Convenient function for computing standard error (surprisingly not in base =R=?)
