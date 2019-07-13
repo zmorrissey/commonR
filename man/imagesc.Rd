@@ -4,10 +4,14 @@
 \alias{imagesc}
 \title{Plot matrix using ggplot2}
 \usage{
-imagesc(df, scale_label = "")
+imagesc(df, scale_label = "", cmap_option = "viridis")
 }
 \arguments{
 \item{df}{Matrix data}
+
+\item{scale_label}{Label to be applied to the colorbar scale (blank by default)}
+
+\item{cmap_option}{Choose colormap among viridis scales (default)}
 }
 \description{
 Plot matrix analagous to Matlab's imagesc function.
