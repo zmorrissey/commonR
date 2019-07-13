@@ -4,10 +4,10 @@
 \alias{imagesc}
 \title{Plot matrix using ggplot2}
 \usage{
-imagesc(df)
+imagesc(df, scale_label = "")
 }
 \arguments{
-\item{df}{Matrix data that has been converted to tidy dataframe using convert_mat_df}
+\item{df}{Matrix data}
 }
 \description{
 Plot matrix analagous to Matlab's imagesc function.
