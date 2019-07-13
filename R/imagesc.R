@@ -7,8 +7,7 @@
 #' @keywords matrix ggplot2
 #' @export
 #' @examples
-#' foo <- convert_mat_df(matrix(data=rnorm(n=25), nrow=5, ncol=5))
-#' imagesc(foo)
+#' imagesc(matrix(data = rnorm(n = 25), nrow = 5, ncol = 5))
 
 imagesc <- function(df,
                     scale_label = "",
