@@ -4,7 +4,9 @@
 #' @keywords save plot ggsave ggplot2
 #' @examples
 #' p <- ggplot(mtcars, aes(mpg, wt)) + geom_point()
-#' save_1col("mtcars.png")
+#' save_1col("mtcars-1col.png")
+#' save_1.5col("mtcars-1.5col.png")
+#' save_2col("mtcars-2col.png")
 
 
 save_1col <- function(title, path = ".", scale = 1) {
