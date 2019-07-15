@@ -17,8 +17,7 @@ imagesc(df, scale_label = "", cmap_option = "viridis")
 Plot matrix analagous to Matlab's imagesc function.
 }
 \examples{
-foo <- convert_mat_df(matrix(data=rnorm(n=25), nrow=5, ncol=5))
-imagesc(foo)
+imagesc(matrix(data = rnorm(n = 25), nrow = 5, ncol = 5))
 }
 \keyword{ggplot2}
 \keyword{matrix}
