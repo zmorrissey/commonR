@@ -22,8 +22,8 @@ imagesc <- function(df,
     }
 
     ## Visualize
-    ggplot(df, aes(rev(Var1),
-                   Var2,
+    ggplot(df, aes(Var1,
+                   rev(Var2),
                    fill = value)) +
         geom_tile() +
         scale_fill_viridis(name = scale_label, option = cmap_option) +
