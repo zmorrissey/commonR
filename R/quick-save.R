@@ -1,10 +1,10 @@
-#' Save plots in 1-, 1.5, or 2-column width for manuscripts
+#' Save plots in 1-, 1.5-, or 2-column width for manuscripts
 #'
 #' Wraps ggsave to save plots in specified column widths for publication.
 #' @keywords save plot ggsave ggplot2
 #' @examples
 #' p <- ggplot(mtcars, aes(mpg, wt)) + geom_point()
-#' save_1col(p)
+#' save_1col("mtcars.png")
 
 
 save_1col <- function(title, path = ".", scale = 1) {
