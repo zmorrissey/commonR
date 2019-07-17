@@ -10,18 +10,21 @@
 
 my_theme <- function() {
     theme(
+        ## Legend
         legend.title = element_text(face = "bold",
                                     size = 14),
         legend.text = element_text(face = "plain",
                                    size = 12),
+
+        ## Axes
         axis.title.x = element_text(face = "bold",
-                                    size = 14,
+                                    size = 16,
                                     margin = margin(t = 20,
                                                     b = 0,
                                                     l = 0,
                                                     r = 0)),
         axis.title.y = element_text(face = "bold",
-                                    size = 14,
+                                    size = 16,
                                     margin = margin(t = 0,
                                                     b = 0,
                                                     l = 0,
@@ -32,11 +35,18 @@ my_theme <- function() {
         axis.text.y = element_text(face = "plain",
                                    size = 12,
                                    color = "black"),
+
+        ## Title
         plot.title = element_text(face = "bold",
                                   size = 22,
                                   color = "black",
                                   margin = margin(t = 10,
                                                   b = 10,
                                                   l = 0,
-                                                  r = 0)))
+                                                  r = 0)),
+
+        ## Facets
+        strip.text.x = element_text(size = 14, color = "black"),
+        strip.text.y = element_text(size = 14, color = "black")
+)
 }
