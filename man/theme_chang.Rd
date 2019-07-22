@@ -4,7 +4,7 @@
 \alias{theme_chang}
 \title{Chang theme for ggplot2}
 \usage{
-theme_chang(base_size = 11, base_family = "",
+theme_chang(base_size = 11, base_family = "Helvetica",
   base_line_size = base_size/22, base_rect_size = base_size/22)
 }
 \description{
@@ -16,14 +16,9 @@ theme_chang() is a minimal design suited for illustrating single lines,
 functions, or trends, or distinguishing one particular variable. Theme
 includes the distinctive red used throughout the book, inward facing axis
 ticks, and blank background.
-
-theme_chang_minimal() is the same as theme_chang() but without axis ticks
-and axis labels, useful for illustrative plots to show trends where exact
-quantitation is not important.
 }
 \examples{
-ggplot(mtcars, aes(wt, mpg)) + geom_point() + theme_chang()
-ggplot(mtcars, aes(wt, mpg)) + geom_point() + theme_chang_minimal()
+ggplot(mtcars, aes(wt, mpg)) + geom_point() + geom_smooth(color = changred, se = FALSE) +theme_chang()
 }
 \keyword{ggplot2}
 \keyword{theme}

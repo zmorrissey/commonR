@@ -3,14 +3,15 @@
 \docType{data}
 \name{cb_gray}
 \alias{cb_gray}
-\title{Color blind-friendly color palettes for plots}
+\title{Color palettes for plots}
 \format{An object of class \code{character} of length 1.}
 \usage{
 cb_gray
 }
 \description{
-Color blind-friendly palettes and plot colors I like. Palettes taken from
-http://www.cookbook-r.com/Graphs/Colors_(ggplot2)/#palettes-color-brewer
+Color palettes and plot colors I like. Color blind-friendly palettes taken
+from the Cookbook for R (http://www.cookbook-r.com/Graphs/Colors_(ggplot2)/#palettes-color-brewer).
+The Matplotlib default color palette was taken from the documentation (https://matplotlib.org/users/dflt_style_changes.html#colors-in-default-property-cycle).
 }
 \examples{
 ggplot(mtcars, aes(wt, mpg)) + geom_point(aes(color = as.factor(cyl))) + scale_color_manual(values = cbPalette)
