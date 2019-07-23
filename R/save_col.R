@@ -18,15 +18,16 @@ save_col <- function(title,
                      path = ".",
                      scale = 1) {
 
-    col_widths <- list("1" = 85,
-                       "1.5" = 114,
-                       "2" = 300)
+    ## Based on Nature's standard figure sizes
+    col_widths <- list("1" = 89,
+                       "1.5" = 136,
+                       "2" = 183)
 
     ggsave(filename = title,
            path = path,
            dpi = 300,
            width = col_widths[[col_width]],
-           height = 85,
+           height = 89,
            scale = scale,
            units = "mm")
 }
