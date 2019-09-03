@@ -34,7 +34,8 @@
 #' @examples
 #' ggplot(mtcars, aes(wt, mpg)) + geom_point(aes(color = as.factor(cyl))) + scale_color_manual(values = cbPalette)
 
-### Color blind-friendly colors
+
+### Color blind-friendly colors ----------------------------------------------
 cb_gray      <- "#999999"
 cb_orange    <- "#E69F00"
 cb_lightblue <- "#56B4E9"
@@ -66,7 +67,7 @@ cbb_palette <- c(cb_black,
                  cb_pink)
 
 
-### Matplotlib default color cycle
+### Matplotlib default color cycle -------------------------------------------
 plt_blue   <- "#1F77B4"
 plt_orange <- "#FF7F0E"
 plt_green  <- "#2CA02C"
@@ -89,9 +90,11 @@ matplotlib_palette <- c(plt_blue,
                         plt_yellow,
                         plt_teal)
 
-### Individual colors to highlight certain plot elements
-brickred <- "#B5251C"  # from LaTeX
 
-changred <- "#D12413"  # from "Physical Chemistry" by Raymond Chang
+### Individual colors to highlight certain plot elements ---------------------
+brickred <- "#B5251C"  # from LaTeX xcolor package
+
+changred <- "#D84529"  # from "Physical Chemistry for the Chemical and
+                       # Biological Sciences" by Raymond Chang
 
 soloblue <- "#2096BA"
