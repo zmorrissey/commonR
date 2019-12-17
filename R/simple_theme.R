@@ -28,6 +28,7 @@ simple_theme <- function() {
         ## Legend
         legend.title = element_text(size = 14),
         legend.text = element_text(size = 12),
+        legend.key = element_blank(),
 
         ## Panel
         panel.background = element_blank(),
