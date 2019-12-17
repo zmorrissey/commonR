@@ -11,14 +11,15 @@ simple_theme <- function() {
     theme(
         ## Axes
         axis.ticks = element_blank(),
-        axis.title = element_text(
+        axis.title.x = element_text(
             color = "black",
             size = 14,
             margin = margin(20, 0, 0, 0)),
         axis.title.y = element_text(
             color = "black",
             size = 14,
-            margin = margin(0, 0, 0, 20)),
+            margin = margin(0, 20, 0, 0)),
+        axis.text = element_text(color = "black", size = 12),
 
         ## Facets
         strip.background = element_blank(),
