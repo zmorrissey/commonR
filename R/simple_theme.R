@@ -9,8 +9,36 @@
 
 simple_theme <- function() {
     theme(
+        ## Axes
+        axis.ticks = element_blank(),
+        axis.title = element_text(
+            color = "black",
+            size = 14,
+            margin = margin(20, 0, 0, 0)),
+        axis.title.y = element_text(
+            color = "black",
+            size = 14,
+            margin = margin(0, 0, 0, 20)),
+
+        ## Facets
+        strip.background = element_blank(),
+        strip.text = element_text(size = 14, color = "black"),
+
+        ## Legend
+        legend.title = element_text(size = 14),
+        legend.text = element_text(size = 12),
+
+        ## Panel
         panel.background = element_blank(),
         panel.grid.major = element_line(color = "#D8D8D8"),
-        axis.ticks = element_blank()
+
+        ## Title
+        plot.title = element_text(
+            face = "bold",
+            size = 22,
+            color = "black",
+            margin = margin(10, 10, 0, 0))
+
+
 )
 }
