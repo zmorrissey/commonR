@@ -36,11 +36,9 @@ simple_theme <- function() {
 
         ## Title
         plot.title = element_text(
-            face = "bold",
-            size = 22,
+            size = 16,
             color = "black",
-            margin = margin(10, 10, 0, 0))
-
+            margin = margin(10, 10, 10, 0))
 
 )
 }
