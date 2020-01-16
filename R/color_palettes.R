@@ -30,6 +30,7 @@
 #' @export plt_yellow
 #' @export plt_teal
 #' @export matplotlib_palette
+#' @export offwhite
 #'
 #' @examples
 #' ggplot(mtcars, aes(wt, mpg)) + geom_point(aes(color = as.factor(cyl))) + scale_color_manual(values = cbPalette)
@@ -98,3 +99,5 @@ changred <- "#D84529"  # from "Physical Chemistry for the Chemical and
                        # Biological Sciences" by Raymond Chang
 
 soloblue <- "#2096BA"
+
+offwhite <- "#FFFFF3"  # from https://www.edwardtufte.com/tufte/
