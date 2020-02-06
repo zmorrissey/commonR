@@ -32,6 +32,7 @@
 #' @export matplotlib_palette
 #' @export offwhite
 #' @export vermillion
+#' @export etred
 #'
 #' @examples
 #' ggplot(mtcars, aes(wt, mpg)) + geom_point(aes(color = as.factor(cyl))) + scale_color_manual(values = cbPalette)
@@ -94,13 +95,15 @@ matplotlib_palette <- c(plt_blue,
 
 
 ### Individual colors to highlight certain plot elements ---------------------
-brickred <- "#B5251C"  # from LaTeX xcolor package
+brickred    <-    "#B5251C"  # from LaTeX xcolor package
 
-changred <- "#D84529"  # from "Physical Chemistry for the Chemical and
-                       # Biological Sciences" by Raymond Chang
+changred    <-    "#D84529"  # from "Physical Chemistry for the Chemical and
+                             # Biological Sciences" by Raymond Chang
 
-soloblue <- "#2096BA"
+soloblue    <-    "#2096BA"
 
-offwhite <- "#FFFFF3"  # from https://www.edwardtufte.com/tufte/
+offwhite    <-    "#FFFFF3"  # from https://www.edwardtufte.com/tufte/
 
-vermillion <- "#E34234"
+vermillion  <-    "#E34234"
+
+etred       <-    "#DC2828"  # from https://www.edwardtufte.com/tufte/
