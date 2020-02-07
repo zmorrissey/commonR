@@ -14,4 +14,4 @@ Includes:
 - =my_theme.R=: Minor theme customizations for =ggplot2=
 - =save_col.R=: Wrapper to =ggsave= for quickly saving plots of set column widths for publication
 - =se.R=: Convenient function for computing standard error (surprisingly not in base =R=?)
-- =simple_theme.R=: Theme inspired by graphics used in Claus Wilke's [[https://serialmentor.com/dataviz/index.html][/Fundamentals of Data Visualization/]] book
+- =simple_theme.R=: Theme inspired by graphics used in Claus Wilke's [[https://serialmentor.com/dataviz/index.html][Fundamentals of Data Visualization]] book
