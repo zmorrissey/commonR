@@ -48,6 +48,7 @@ theme_zdm <- function() {
         ## Facets
         strip.text.x = element_text(size = 14, color = "black"),
         strip.text.y = element_text(size = 14, color = "black"),
+        strip.background = element_blank(),
 
         ## Background
         panel.background = element_blank()
