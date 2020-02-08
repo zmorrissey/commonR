@@ -30,9 +30,11 @@
 #' @export plt_yellow
 #' @export plt_teal
 #' @export matplotlib_palette
-#' @export offwhite
 #' @export vermillion
-#' @export etred
+#' @export gggray
+#' @export et_offwhite
+#' @export et_red
+#' @export et_gray
 #'
 #' @examples
 #' ggplot(mtcars, aes(wt, mpg)) + geom_point(aes(color = as.factor(cyl))) + scale_color_manual(values = cbPalette)
@@ -102,8 +104,11 @@ changred    <-    "#D84529"  # from "Physical Chemistry for the Chemical and
 
 soloblue    <-    "#2096BA"
 
-offwhite    <-    "#FFFFF3"  # from https://www.edwardtufte.com/tufte/
-
 vermillion  <-    "#E34234"
 
-etred       <-    "#DC2828"  # from https://www.edwardtufte.com/tufte/
+gggray      <-    "#EBEBEB"  # ggplot2 gray background color
+
+### Based on colors found in the works of Edward Tufte
+et_offwhite <-    "#FFFFF3"
+et_red      <-    "#DC2828"
+et_gray     <-    "#D3D3D3"

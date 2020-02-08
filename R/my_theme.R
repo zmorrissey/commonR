@@ -14,6 +14,8 @@ theme_zdm <- function() {
         legend.title = element_text(size = 14),
         legend.text = element_text(face = "plain",
                                    size = 12),
+        legend.box.background = element_blank(),
+        legend.key = element_blank(),
 
         ## Axes
         axis.title.x = element_text(size = 16,
