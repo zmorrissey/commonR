@@ -35,6 +35,18 @@
 #' @export et_offwhite
 #' @export et_red
 #' @export et_gray
+#' @export tmk_violet
+#' @export tmk_blue
+#' @export tmk_lblue
+#' @export tmk_red
+#' @export tmk_lred
+#' @export tmk_white
+#' @export vry_violet
+#' @export vry_red
+#' @export vry_orange
+#' @export vry_yellow
+#' @export vry_lyellow
+#' @export vry_gray
 #'
 #' @examples
 #' ggplot(mtcars, aes(wt, mpg)) + geom_point(aes(color = as.factor(cyl))) + scale_color_manual(values = cbPalette)
@@ -59,7 +71,8 @@ cb_palette <- c(cb_gray,
                 cb_yellow,
                 cb_blue,
                 cb_red,
-                cb_pink)
+                cb_pink
+)
 
 ### Palette with black
 cbb_palette <- c(cb_black,
@@ -69,7 +82,8 @@ cbb_palette <- c(cb_black,
                  cb_yellow,
                  cb_blue,
                  cb_red,
-                 cb_pink)
+                 cb_pink
+)
 
 
 ### Matplotlib default color cycle -------------------------------------------
@@ -93,7 +107,8 @@ matplotlib_palette <- c(plt_blue,
                         plt_pink,
                         plt_gray,
                         plt_yellow,
-                        plt_teal)
+                        plt_teal
+)
 
 
 ### Individual colors to highlight certain plot elements ---------------------
@@ -112,3 +127,39 @@ gggray      <-    "#EBEBEB"  # ggplot2 gray background color
 et_offwhite <-    "#FFFFF3"
 et_red      <-    "#DC2828"
 et_gray     <-    "#D3D3D3"
+
+
+### #tokyomk6 color palette (u/Tower13)
+tmk_violet  <-    "#24214E"
+tmk_blue    <-    "#09506C"
+tmk_lblue   <-    "#CCE4E8"
+tmk_red     <-    "#EC4769"
+tmk_lred    <-    "#FBD3C7"
+tmk_white   <-    "#FCFCFE"
+
+tmk_palette <- c(
+    tmk_violet,
+    tmk_blue,
+    tmk_lblue,
+    tmk_red,
+    tmk_lred,
+    tmk_white
+)
+
+
+### ViROY
+vry_violet <- "#002b49"
+vry_red <- "#d72524"
+vry_orange <- "#fe6620"
+vry_yellow <- "#fdc14b"
+vry_lyellow <- "#eae4b8"
+vry_gray <- "#e8e8e8"
+
+vry_palette <- (
+    vry_violet,
+    vry_red,
+    vry_orange,
+    vry_yellow,
+    vry_lyellow,
+    vry_gray
+)
