@@ -4,8 +4,12 @@
 \alias{theme_chang}
 \title{Chang theme for ggplot2}
 \usage{
-theme_chang(base_size = 11, base_family = "Helvetica",
-  base_line_size = base_size/22, base_rect_size = base_size/22)
+theme_chang(
+  base_size = 11,
+  base_family = "Helvetica",
+  base_line_size = base_size/22,
+  base_rect_size = base_size/22
+)
 }
 \description{
 Custom ggplot2 theme inspired by the plots in Raymond Chang's "Physical
