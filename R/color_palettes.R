@@ -155,7 +155,7 @@ vry_yellow <- "#fdc14b"
 vry_lyellow <- "#eae4b8"
 vry_gray <- "#e8e8e8"
 
-vry_palette <- (
+vry_palette <- c(
     vry_violet,
     vry_red,
     vry_orange,
