@@ -1,21 +1,21 @@
-#' Custom ggplot2 theme for publication
+#' Custom ggplot2 theme for slide presentations
 #'
-#' Publication-quality theme, modeled after the Nature final artwork guidelines.
-#' See https://www.nature.com/nature/for-authors/final-submission for details.
+#' ggplot2 theme with font size, linewidths, etc., optimized for slide
+#' presentations.
 #'
 #'
 #' @keywords ggplot2 theme
-#' @export theme_pub
+#' @export theme_pres
 #' @examples
-#' ggplot(mtcars, aes(wt, mpg)) + geom_point() + theme_pub()
+#' ggplot(mtcars, aes(wt, mpg)) + geom_point() + theme_pres()
 
-theme_pub <- function() {
+theme_pres <- function() {
     ## Font and text sizes (units = pt)
-    titlesize <- 7
-    axis_titlesize <- 6
-    axis_textsize <- 5
-    ticklength <- 3  # pt
-    linewidth <- 0.176  # mm (= 0.5 pt)
+    titlesize <- 18
+    axis_titlesize <- 16
+    axis_textsize <- 14
+    ticklength <- 7  # pt
+    linewidth <- 0.5
 
     theme(
         ## Axes
@@ -48,7 +48,10 @@ theme_pub <- function() {
             color = "black"),
 
         ## Caption
-        plot.caption=element_text(size=axis_textsize),
+        plot.caption = element_text(
+            face = "plain",
+            size = axis_textsize,
+            color = "black"),
 
         ## Facets
         strip.text.x = element_text(size = axis_titlesize, color = "black"),
@@ -56,6 +59,6 @@ theme_pub <- function() {
         strip.background = element_blank(),
 
         ## Background
-        panel.background = element_blank()
+        panel.background = element_blank(),
 )
 }
