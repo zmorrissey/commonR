@@ -52,7 +52,6 @@ theme_pub <- function() {
             face = "plain",
             size = subtitlesize,
             color = "black"),
-        )
 
         ## Caption
         plot.caption=element_text(size=axis_textsize),
