@@ -12,6 +12,7 @@
 theme_pub <- function() {
     ## Font and text sizes (units = pt)
     titlesize <- 7
+    subtitlesize <- 6
     axis_titlesize <- 6
     axis_textsize <- 5
     ticklength <- 3  # pt
@@ -46,6 +47,12 @@ theme_pub <- function() {
             face = "plain",
             size = titlesize,
             color = "black"),
+
+        plot.subtitle = element_text(
+            face = "plain",
+            size = subtitlesize,
+            color = "black"),
+        )
 
         ## Caption
         plot.caption=element_text(size=axis_textsize),
