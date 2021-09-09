@@ -15,6 +15,9 @@ save_pres(filename, scale = 1)
 }
 \description{
 Wraps ggsave to save plots in specified column widths for presentation.
+Default height is set to the default height of the bullet textbox in
+LibreOffice Impress. Default width is calculated from golden ratio of the
+height.
 }
 \examples{
 p <- ggplot(mtcars, aes(mpg, wt)) + geom_point()
