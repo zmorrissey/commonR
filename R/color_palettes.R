@@ -47,6 +47,7 @@
 #' @export vry_yellow
 #' @export vry_lyellow
 #' @export vry_gray
+#' @export vry_palette
 #'
 #' @examples
 #' ggplot(mtcars, aes(wt, mpg)) + geom_point(aes(color = as.factor(cyl))) + scale_color_manual(values = cbPalette)
