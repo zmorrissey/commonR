@@ -11,6 +11,7 @@
 
 theme_pub <- function() {
     ## Font and text sizes (units = pt)
+    tagsize <- 8
     titlesize <- 7
     subtitlesize <- 6
     axis_titlesize <- 6
@@ -53,8 +54,13 @@ theme_pub <- function() {
             size = subtitlesize,
             color = "black"),
 
+        plot.tag = element_text(
+            face = "plain",
+            size = tagsize,
+            color = "black"),
+
         ## Caption
-        plot.caption=element_text(size=axis_textsize),
+        plot.caption = element_text(size = axis_textsize),
 
         ## Facets
         strip.text.x = element_text(size = axis_titlesize, color = "black"),
@@ -63,5 +69,5 @@ theme_pub <- function() {
 
         ## Background
         panel.background = element_blank()
-)
+    )
 }
